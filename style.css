@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #b30000;
+  color: white;
+}
+
+header .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  height: 80vh;
+  background: url('https://images.unsplash.com/photo-1550547660-d9450f859349') center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #ffcc00;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* SECTIONS */
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
