@@ -11,19 +11,23 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: #b30000;
+  background: #8b0000;
   color: white;
 }
 
-header .logo {
-  font-size: 22px;
-  font-weight: bold;
+/* LOGO IMAGE */
+.logo img {
+  height: 55px;
+  width: auto;
+  border-radius: 8px;
 }
 
+/* NAV */
 nav a {
   color: white;
   margin-left: 15px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /* HERO */
@@ -36,39 +40,59 @@ nav a {
   align-items: center;
   color: white;
   text-align: center;
+  padding: 20px;
 }
 
 .hero h1 {
-  font-size: 40px;
+  font-size: 45px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .btn {
-  margin-top: 15px;
-  padding: 10px 20px;
+  margin-top: 20px;
+  padding: 12px 25px;
   background: #ffcc00;
   color: black;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
 /* SECTIONS */
 section {
-  padding: 50px;
+  padding: 60px 20px;
   text-align: center;
 }
 
+/* MENU */
 .menu-items {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .item {
   border: 1px solid #ddd;
   padding: 20px;
-  width: 200px;
+  width: 220px;
   border-radius: 10px;
+  background: #fff;
+}
+
+/* ABOUT */
+.about {
+  background: #f8f8f8;
+}
+
+/* CONTACT */
+.contact {
+  background: #fff;
 }
 
 /* FOOTER */
